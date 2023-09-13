@@ -1,4 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
 :root {
+  --ff-inter: font-family: 'Inter', sans-serif;
+
+  --clr-primary-orange: hsl(35, 77%, 62%);
+  --clr-primary-red: hsl(5, 85%, 63%);
+
+  --clr-secondary-offwhite: hsl(36, 100%, 99%);
+  --clr-secondary-graish-blue: hsl(233, 8%, 79%);
+  --clr-secondary-dark-graish-blue: hsl(236, 13%, 42%);
+  --clr-secondary-dark-blue: hsl(240, 100%, 5%);
+
+
 }
 
 *,
@@ -24,6 +37,10 @@ h3,
 h4,
 h5,
 h6 {
+}
+
+p {
+  font-size: 0.9375rem;
 }
 
 img {
