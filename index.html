@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="main.js" defer></script>
     <title>News homepage</title>
   </head>
   <body>
     <header>
-      <div class="wrapper">
+      <div class="container flex-space">
         <div class="logo">
           <svg width="65" height="40" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -15,7 +17,7 @@
               fill="#00001A" />
           </svg>
         </div>
-
+        <div class="overlay"></div>
         <nav class="primary-nav">
           <button class="menu-close">
             <svg width="32" height="31" xmlns="http://www.w3.org/2000/svg">
@@ -46,12 +48,9 @@
     </header>
 
     <main>
-      <div class="wrapper">
+      <div class="container">
         <section class="main-article">
-          <picture>
-            <source srcset="/assets/images/image-web-3-desktop.jpg" media="(min-width: 600px)" />
-            <img src="/assets/images/image-web-3-mobile.jpg" alt="web 3.0" />
-          </picture>
+          <img src="/assets/images/image-web-3-desktop.jpg" alt="" />
 
           <h1>The Bright Future of Web 3.0?</h1>
 
@@ -61,10 +60,10 @@
           </div>
         </section>
 
-        <section>
+        <section class="new-articles">
           <h2>New</h2>
 
-          <article class="new-articles">
+          <article>
             <h3>Hydrogen VS Electric Cars</h3>
             <p>Will hydrogen-fueled cars ever catch up to FVs?</p>
           </article>
